@@ -1,6 +1,6 @@
 # myapp/api.py
 from tastypie.resources import ModelResource
-from api.models import DetailPage
+from .models import DetailPage
 from serializers import CSVSerializer
 
 # our basic scraped item is called an "Entry"
